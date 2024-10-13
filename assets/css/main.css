@@ -1,0 +1,28 @@
+@import './base.css';
+
+body{
+    background-color: antiquewhite;
+}
+.category,.product{
+    background-color: #fff;
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.products{
+    margin-top: 20px;
+}
+.products .container h2:first-child{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: chartreuse;
+    background-color: crimson;
+    display: inline-block; /* Makes the h2 only take as much width as needed */
+    padding: 10px 20px;
+}
